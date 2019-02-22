@@ -1,0 +1,25 @@
+{
+  "name": "ie-blur-polyfill",
+  "version": "0.0.1",
+  "description": "blur polyfill for IE (9, 10, 11) which using canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaraMisoRamen/IE-blur-polyfill.git"
+  },
+  "keywords": [
+    "polyfill",
+    "blur",
+    "IE",
+    "canvas"
+  ],
+  "author": "Pei Fan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaraMisoRamen/IE-blur-polyfill/issues"
+  },
+  "homepage": "https://github.com/KaraMisoRamen/IE-blur-polyfill#readme"
+}
