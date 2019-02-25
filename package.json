@@ -4,6 +4,7 @@
   "description": "blur polyfill for IE (9, 10, 11) which using canvas",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c rollup.config.js"
   },
@@ -25,5 +26,10 @@
   "homepage": "https://github.com/KaraMisoRamen/IE-blur-polyfill#readme",
   "dependencies": {
     "stackblur-canvas": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   }
 }
