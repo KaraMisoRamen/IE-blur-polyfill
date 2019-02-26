@@ -1,3 +1,7 @@
-import * as StackBlur from 'stackblur-canvas'
+import { IEBlurPoly } from './IEBlurPoly.js'
 
-console.log(StackBlur.image)
+const elShouldBeBlur = Array.from(document.querySelectorAll('.wrapper'))
+
+elShouldBeBlur.forEach((item) => {
+  IEBlurPoly(item)
+})
