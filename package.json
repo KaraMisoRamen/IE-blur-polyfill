@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/KaraMisoRamen/IE-blur-polyfill#readme",
   "dependencies": {
+    "html2canvas": "^1.0.0-alpha.12",
     "stackblur-canvas": "^2.2.0"
   },
   "devDependencies": {
