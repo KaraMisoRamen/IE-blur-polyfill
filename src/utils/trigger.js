@@ -11,4 +11,4 @@ function isIEWithCanvas () {
   }
 }
 
-export var shouldBeTrigger = isIE11 || isIEWithCanvas()
+export var trigger = isIE11 || isIEWithCanvas()
