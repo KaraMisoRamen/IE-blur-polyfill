@@ -4,6 +4,9 @@ import { renderToCanvas } from './utils/renderToCanvas'
 
 export function IEBlurPoly (el) {
   if (!trigger) {
-    renderToCanvas(el)
+    renderToCanvas(el).
+      then(() => {
+        console.log('happy')
+      })
   }
 }
